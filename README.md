@@ -57,6 +57,18 @@ Android 手机最近使用过的微信小程序所对应的 wxapkg 包文件都�
 此外，这些 node.js 程序之间也有一定的依赖关系，比如他们都依赖于 wuLib.js 。
 
 
+
+
+## 教程
+
+[微信小程序“反编译”实战（一）：解包](https://mp.weixin.qq.com/s/GnHzJWYFJUXYuvYq6Cb_FA)
+
+[微信小程序“反编译”实战（二）：源码还原](https://mp.weixin.qq.com/s/O3Ix91GkkS0ollYK_s6e_Q)
+
+## 使用
+
+` node wuWxapkg.js [-d] <path/to/.wxapkg>`
+
 ## 参考
 
 这些实现除了参考微信小程序开发文档、 一个开源微信小程序和一些 Issue 提供的 wxapkg 文件解包后的内容以及通过开发者工具编译的一些 wxml 外，还参考了一些 github 上的相关内容的分析( [unwxapkg.py](https://gist.github.com/feix/32ab8f0dfe99aa8efa84f81ed68a0f3e)、[wechat-app-unpack](https://github.com/leo9960/wechat-app-unpack/) )，在此感谢他们。
